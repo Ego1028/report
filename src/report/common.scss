@@ -1,0 +1,24 @@
+:local(.page) {
+    width: 10.2in;
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+:local(.bgGrey) {
+    background-color: #f4f4f4;
+}
+
+:local(.reportTable) {
+    border-collapse: collapse;
+    tr {
+        border-bottom: #dfdfdf solid 0.015in;
+
+        td, th {
+            padding-bottom: 0.15in;
+            padding-top: 0.15in;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+:local(.coverTitle) {
+    
+    //position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-left: 4in;
+    padding-top: 2in;
+    
+    :local(.title) {
+        display: inline-block;
+
+        * {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    :local(.title) > *:first-child {
+        padding-bottom: 0.15in;
+        margin-bottom: 0.15in;
+        border-bottom: #dfdfdf solid 0.015in;
+    }
+
+    :local(.subtitle) {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+}
+
+:local(.overview) {
+    //position: absolute;
+    bottom: 0.825in;
+    padding-left: 0.7in;
+    padding-right: 0.7in;
+    padding-top: 0.5in;
+    padding-bottom: 0.5in;
+
+    h4 {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    :local(.reportTable) {
+        width: 100%;
+        th {
+            width: 2.7in;
+        }
+    }
+
+}

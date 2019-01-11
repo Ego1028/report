@@ -1,0 +1,28 @@
+:local(.reportTable) {
+  width: 100%;
+  border-spacing: 0 1px;
+  border-collapse: collapse;
+  color: #6a6a6a;
+
+  thead {
+    background: #08b1c4;
+    color: white;
+  }
+
+  tr > td {
+    text-align: center;
+    padding-left: 0.25in;
+    padding-right: 0;
+    padding-top: 0.18in;
+    padding-bottom: 0.18in;
+  }
+
+  tr > td:last-child {
+    padding-right: 0.25in;
+  }
+
+  tr > td:first-child {
+    text-align: left;
+    width: 50%;
+  }
+}

@@ -1,0 +1,21 @@
+:local(.header) {
+    font-size: 0.15in;
+    position: relative;
+    top: 0;
+    padding-left: 0.7in;
+    padding-right: 0.7in;
+    padding-top: 0.2in;
+    padding-bottom: 0.2in;
+    justify-content: space-between;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+    img {
+        height: 0.28in;
+    }
+
+    :local(.caption) {
+        font-weight: bold;
+    }
+}
